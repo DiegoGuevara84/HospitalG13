@@ -20,7 +20,7 @@ class User(AbstractBaseUser, PermissionsMixin):
     perfil = models.CharField('Perfil', max_length= 30, unique=False, null=False)
     nombre = models.CharField('Nombre', max_length = 35, unique=False, null=False)
     apellidos = models.CharField('Apellidos', max_length = 35, unique=False, null=False)
-    telefono = models.CharField('Telefono', max_length = 35, unique=False, null=False)
+    telefonos = models.CharField('Telefono', max_length = 35, unique=False, null=False)
     genero = models.CharField('Genero', max_length = 35, unique=False, null=True)
     
 
