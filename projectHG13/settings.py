@@ -27,6 +27,15 @@ SECRET_KEY = 'django-insecure-c-q83o2^@m7^a9i6(9yv#bg8y!8v(azn8_ufsf(fzu*j4cn3%p
 DEBUG = True
 
 ALLOWED_HOSTS = []
+CORS_ORIGIN_ALLOW_ALL = True
+
+#Configuración despliegue FE local
+"""CORS_ORIGIN_WHITELIST = (
+  'http://localhost:8080',
+  'http://localhost:8080/#/consPaciente/',
+  'http://localhost:8080/consPaciente/',
+)"""
+
 
 
 # Application definition
@@ -40,6 +49,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'appHG13',
+    'corsheaders',
 ]
 
 SIMPLE_JWT = {
@@ -63,6 +73,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
 ]
 
 
