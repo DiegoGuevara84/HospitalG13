@@ -30,11 +30,11 @@ ALLOWED_HOSTS = []
 CORS_ORIGIN_ALLOW_ALL = True
 
 #Configuración despliegue FE local
-"""CORS_ORIGIN_WHITELIST = (
-  'http://localhost:8080',
-  'http://localhost:8080/#/consPaciente/',
-  'http://localhost:8080/consPaciente/',
-)"""
+   #CORS_ORIGIN_WHITELIST = (
+   #http://localhost:8080',
+   #http://localhost:8080/#/consPaciente/',
+   #http://localhost:8080/consPaciente/',
+#)
 
 
 
