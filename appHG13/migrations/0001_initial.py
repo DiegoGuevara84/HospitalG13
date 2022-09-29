@@ -24,7 +24,7 @@ class Migration(migrations.Migration):
                 ('perfil', models.CharField(max_length=30, verbose_name='Perfil')),
                 ('nombre', models.CharField(max_length=35, verbose_name='Nombre')),
                 ('apellidos', models.CharField(max_length=35, verbose_name='Apellidos')),
-                ('telefonos', models.CharField(max_length=35, verbose_name='Telefono')),
+                ('telefono', models.CharField(max_length=35, verbose_name='Telefono')),
                 ('genero', models.CharField(max_length=35, null=True, verbose_name='Genero')),
                 ('groups', models.ManyToManyField(blank=True, help_text='The groups this user belongs to. A user will get all permissions granted to each of their groups.', related_name='user_set', related_query_name='user', to='auth.group', verbose_name='groups')),
                 ('user_permissions', models.ManyToManyField(blank=True, help_text='Specific permissions for this user.', related_name='user_set', related_query_name='user', to='auth.permission', verbose_name='user permissions')),
