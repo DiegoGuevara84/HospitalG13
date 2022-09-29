@@ -117,9 +117,9 @@ WSGI_APPLICATION = 'projectHG13.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'dehl12r5dhcv6b',
-        'USER': 'ecttbajviktfxm',
-        'PASSWORD': 'df6497d7db9627ba95e36e867a35467ee4aa7c79ca50e511695006ea27ec8d9b',
+        'NAME': 'dfou1j4l2s54ph',
+        'USER': 'qbypgmhamghgze',
+        'PASSWORD': 'da4b9d48911b65f0a1e26df821386fce9fb2f76ab2e590bb7048eabf983adf69',
         'HOST': 'ec2-3-224-184-9.compute-1.amazonaws.com',
         'PORT': '5432',
     }
