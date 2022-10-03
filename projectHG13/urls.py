@@ -6,7 +6,7 @@ urlpatterns = [
     path('login/', TokenObtainPairView.as_view()),
     path('refresh/', TokenRefreshView.as_view()),
     path('user/', views.UserCreateView.as_view()),
-    path('Psalud/', views.CrearPersonalSaludView.as_view()),
+    path('Psalud/', views.crearPersonalSaludView.as_view()),
     path('paciente/', views.CrearPacienteView),
     path('familiar/', views.CrearFamiliarView.as_view()),
     path('user/<int:pk>/', views.UserDetailView.as_view()),

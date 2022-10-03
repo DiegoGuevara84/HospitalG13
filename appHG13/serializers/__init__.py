@@ -1,6 +1,6 @@
 from .accountSerializer import AccountSerializer
 from .userSerializer import UserSerializer
-from .Psaludserializer import Personal_SaludSerializer
+from .Psaludserializer import Psaludserializer
 from .familiarSerializer import FamiliarSerializer
 from .signosvitalesSerializer import Signos_VitalesSerializer
 from .historiaclinicaSerializer import Historia_ClinicaSerializer
