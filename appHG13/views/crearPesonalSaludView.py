@@ -5,7 +5,7 @@ from appHG13.serializers.Psaludserializer import Psaludserializer
 from appHG13.serializers.userSerializer import UserSerializer
 from appHG13.models.Psalud import Psalud
 
-class crearPersonalSaludView(generics.ListCreateAPIView):
+class MedicoListView(generics.ListCreateAPIView):
     queryset = Psalud.objects.all()
     serializer_class = Psaludserializer
     #permission_classes = (IsAuthenticated,)
