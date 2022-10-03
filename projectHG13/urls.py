@@ -7,7 +7,7 @@ urlpatterns = [
     path('refresh/', TokenRefreshView.as_view()),
     path('user/', views.UserCreateView.as_view()),
     path('Psalud/', views.CrearPersonalSaludView.as_view()),
-    path('paciente/', views.CrearPacienteView.as_view()),
+    path('paciente/', views.CrearPacienteView),
     path('familiar/', views.CrearFamiliarView.as_view()),
     path('user/<int:pk>/', views.UserDetailView.as_view()),
 ]
